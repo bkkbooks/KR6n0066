@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR6n0066/v1
+canonical_location: https://kanripo.org/bkk/KR6n0066/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 攝大乘講疏卷第五．第七
+  identifiers:
+    alt_id:
+    - T85n2805
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2805.xml
+    old_id: T85n2805
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6n0066_000.yaml, hash: 'sha256:0a290d1bb6e6be5995eaf304cdef7f5d2ac7cb5687f8c41a5062b0a364a771c5'}
+  - {seq: 5, filename: KR6n0066_005.yaml, hash: 'sha256:2b56eaaa30e7f69f8c103e50ea085bde077387d3a19c47e42575f4f828dd4dc9'}
+  - {seq: 7, filename: KR6n0066_007.yaml, hash: 'sha256:6f7ae012b580cb9a897c3b4d7ab9294e207d5415ed0675d503abc8e30981c16b'}
+  markers:
+  - {seq: 5, role: markers, filename: assets/KR6n0066_005.markers.yaml, hash: 'sha256:1fb379cf67e10c871bd1723a8d3363a785bac0b1d298570a85ee025f96e30e15'}
+  - {seq: 7, role: markers, filename: assets/KR6n0066_007.markers.yaml, hash: 'sha256:6ce0fed0b4921215fe3ee9cc2d66e404197a151ed8d659b67f0c388ee3b299b1'}
+table_of_contents:
+- ref:
+    seq: 5
+    marker_id: KR6n0066_T_005-juan-start
+    span:
+    - body
+    - 0
+    - 10689
+  label: 攝大乘論疏卷第五
+  type: juan
+  level: 1
+- ref:
+    seq: 5
+    marker_id: KR6n0066_T_005-mulu-1
+    span:
+    - body
+    - 5885
+    - 5885
+  label: 4 差別品
+  type: mulu
+  level: 1
+- ref:
+    seq: 7
+    marker_id: KR6n0066_T_007-juan-start
+    span:
+    - body
+    - 0
+    - 12775
+  label: 攝大乘論疏卷第七
+  type: juan
+  level: 1
+hash: sha256:12e06b3059d4c9346d07b69446abe534e75b03d1d3622e10a4998dfb39a83a6b
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e

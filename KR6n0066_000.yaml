@@ -1,0 +1,17 @@
+canonical_identifier: bkk:krp/KR6n0066/t/v1/juan/0
+seq: 0
+front:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+body:
+  text: ''
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 攝大乘講疏卷第五．第七
+  edition:
+    short: t
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T85/T85n2805.xml
+    old_id: T85n2805
+hash: sha256:0a290d1bb6e6be5995eaf304cdef7f5d2ac7cb5687f8c41a5062b0a364a771c5
